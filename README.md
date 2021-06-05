@@ -1,6 +1,6 @@
 # Distrib
 
-
+Self-hosted continuous deployment service for automatically deploying GitHub projects to your own servers
 
 ## FaQ
 
