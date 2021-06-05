@@ -1,0 +1,30 @@
+{
+  "enableTerminal": true,
+  "packagePrefix": "@distrib/",
+  "allowedTargets": [
+    "win",
+    "linux"
+  ],
+  "commands": [
+    {
+      "id": "cli-dts",
+      "type": "typescript",
+      "package": "cli",
+      "runInEnvironments": [
+        "prod",
+        "dev"
+      ]
+    },
+    {
+      "id": "cli-build",
+      "type": "custom",
+      "package": "cli",
+      "runInEnvironments": [
+        "dev",
+        "prod"
+      ],
+      "command": "node build",
+      "devcommand": "node build --watch"
+    }
+  ]
+}

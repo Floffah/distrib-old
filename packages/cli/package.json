@@ -1,0 +1,40 @@
+{
+    "name": "@distrib/cli",
+    "version": "0.0.0",
+    "description": "Distrib's command line package",
+    "author": "Floffah <therealfloffah@gmail.com>",
+    "homepage": "https://github.com/floffah/distrib#readme",
+    "license": "GPL-3.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "bin": "bin",
+        "lib": "src"
+    },
+    "bin": {
+        "distrib": "bin/distrib"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "files": [
+        "bin",
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Floffah/distrib.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Floffah/distrib/issues"
+    },
+    "devDependencies": {
+        "estrella": "^1.4.1",
+        "typescript": "^4.3.2"
+    },
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "commander": "^7.2.0",
+        "enquirer": "^2.3.6"
+    }
+}

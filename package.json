@@ -1,0 +1,21 @@
+{
+    "name": "distrib",
+    "private": true,
+    "license": "GPL-3.0",
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "@floffah/build": "^1.0.0",
+        "@typescript-eslint/eslint-plugin": "^4.26.0",
+        "@typescript-eslint/parser": "^4.26.0",
+        "eslint": "^7.28.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-workspaces": "^0.6.2",
+        "lerna": "^4.0.0",
+        "npm-check-updates": "^11.6.0",
+        "prettier": "^2.3.1",
+        "typescript": "^4.3.2"
+    }
+}
